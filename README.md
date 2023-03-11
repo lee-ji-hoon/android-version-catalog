@@ -4,7 +4,7 @@
 
 ### ext 를 통한 관리
 
-```groovy
+```kotlin
 // root build.gradle
 buildscript {
     ext {
@@ -14,7 +14,7 @@ buildscript {
 
 // module build.gradle
 dependencies {
-		implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 }
 ```
