@@ -6,6 +6,7 @@ buildscript {
 
     dependencies {
         classpath(libs.android.gradle)
+        classpath(libs.dagger)
         classpath(libs.kotlin.plugin)
     }
 }
