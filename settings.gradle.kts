@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "version-catalog"
 include(":app")
+include(":build-logic")

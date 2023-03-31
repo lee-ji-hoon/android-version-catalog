@@ -1,7 +1,7 @@
 [versions]
 kotlin = "1.8.0"
 
-android-gradle = "7.4.1"
+android-gradle = "8.0.0-rc01"
 android-hilt = "2.44"
 androidx-core = "1.8.0"
 androidx-activity = "1.5.0"
@@ -28,7 +28,7 @@ androidx-test-ext = "1.1.5"
 androidx-test-espresso = "3.5.1"
 
 [libraries]
-kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version = "1.8.20-RC2" }
 
 android-gradle = { module = "com.android.tools.build:gradle", version.ref = "android-gradle" }
 
