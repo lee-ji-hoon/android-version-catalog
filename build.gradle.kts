@@ -6,8 +6,8 @@ buildscript {
 
     dependencies {
         classpath(libs.android.gradle)
+        classpath(libs.kotlin.gradle)
         classpath(libs.dagger)
-        classpath(libs.kotlin.plugin)
     }
 }
 
