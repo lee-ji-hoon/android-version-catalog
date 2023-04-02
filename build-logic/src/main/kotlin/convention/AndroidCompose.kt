@@ -18,9 +18,6 @@ internal fun Project.configureAndroidCompose(
     }
 
     dependencies {
-        api(platform(libs.findLibrary("androidX-compose-bom").get()))
-        implementation(libs.findBundle("androidX-compose"))
-        implementation(libs.findBundle("androidX-compose-lifecycle"))
-        debugImplementation(libs.findBundle("androidX-compose-debug"))
+        implementation(libs.findBundle("compose"))
     }
 }
