@@ -4,7 +4,7 @@
 
 ### ext 를 통한 관리
 
-```groovy
+```kotlin
 // root build.gradle
 buildscript {
     ext {
