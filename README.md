@@ -89,51 +89,7 @@ compose = ["androidx-compose-ui-core", "androidx-compose-ui-tooling-core", "andr
 - `libraries` : 라이브러리 의존성
 - `bundles`     : 라이브러리들을 묶어서 한 번에 사용이 가능하다.
 
-<details>
-<summary>간단하게만 알아보는 toml 문법</summary>
-<div markdown="1">
-
-### Toml 파일이란?
-
-> Tom’s Obvious, Minimal Language의 약자로 구조화된 데이터를 저장하는 데 사용하는 파일 형식이다.
-> 
-- 텍스트 파일로 작성되며, 주로 소프트웨어 설정 파일이나 구성 파일로 사용이 된다.
-
-### Toml 문법
-
-1. Key-Value 쌍: Toml 파일은 Key-Value 쌍으로 구성됩니다. 
-    - Key는 문자열이며, Value는 문자열, 숫자, 불리언, 배열, 인라인 테이블 등의 값으로 구성될 수 있습니다.
-2. 섹션: Toml 파일은 섹션으로 구성될 수 있습니다. 섹션은 대괄호(**`[ ]`**)로 묶인 문자열로 정의됩니다. 
-    - 섹션 내에는 Key-Value 쌍이 포함될 수 있습니다.
-3. 주석: Toml 파일은 주석을 포함할 수 있습니다. 주석은 해시 기호(**`#`**)로 시작하며, 줄 끝까지 계속됩니다.
-
-```toml
-# 예시 Toml 파일
-title = "Toml 파일 예시"
-
-[database]
-server = "localhost"
-port = 12345
-enabled = true
-
-[servers]
-
-[servers.alpha]
-ip = "10.0.0.1"
-dc = "서울"
-
-[servers.beta]
-ip = "10.0.0.2"
-dc = "도쿄"
-```
-
-- `title`과 `database`라는 Key-Value 쌍과 `servers`라는 섹션이 포함이 돼 있다.
-- `servers` 섹션
-    - `servers.alpha`와 `servers.beta`라는 섹션이 포함되어 있으며, 각각에는 `ip`와 `dc`
-    라는 Key-Value 쌍이 포함돼 있습니다.
-
-</div>
-</details>
+[간략하게 알아보는 Toml 문법](https://www.notion.so/Toml-3eff6b6b5d6f47b3936579a8b3e44f58)
 
 ### 실제로 사용해보자!
 
